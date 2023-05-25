@@ -1,7 +1,8 @@
 # oppgave_mai
 
 Pseudokode:
-Funksjon find_lowest_sum(matrix):
+
+    Funksjon find_lowest_sum(matrix):
     rows = antall rader i matrix
     cols = antall kolonner i matrix
     dp = ny matrise med størrelse rows x cols
@@ -34,22 +35,22 @@ Funksjon find_lowest_sum(matrix):
     
     Returner dp[rows - 1][cols - 1] og reverser path
 
-Funksjon find_highest_sum(matrix):
+    Funksjon find_highest_sum(matrix):
     (samme som find_lowest_sum, bare med maksimum i stedet for minimum)
 
-Array1 = [...]
-Array2 = [...]
-Array3 = [...]
-Array4 = [...]
-Array5 = [...]
-Array6 = [...]
+    Array1 = [...]
+    Array2 = [...]
+    Array3 = [...]
+    Array4 = [...]
+    Array5 = [...]
+    Array6 = [...]
 
-Skriv "Array 1"
-laveste_sum, laveste_path = find_lowest_sum(Array1)
-høyeste_sum, høyeste_path = find_highest_sum(Array1)
-Skriv "Laveste Sum:", laveste_sum
-Skriv "Sti med Laveste Sum:", laveste_path
-Skriv "Høyeste Sum:", høyeste_sum
-Skriv "Sti med Høyeste Sum:", høyeste_path
+    Skriv "Array 1"
+    laveste_sum, laveste_path = find_lowest_sum(Array1)
+    høyeste_sum, høyeste_path = find_highest_sum(Array1)
+    Skriv "Laveste Sum:", laveste_sum
+    Skriv "Sti med Laveste Sum:", laveste_path
+    Skriv "Høyeste Sum:", høyeste_sum
+    Skriv "Sti med Høyeste Sum:", høyeste_path
 
-(Samme for Array2, Array3, Array4, Array5, Array6)
+    (Samme for Array2, Array3, Array4, Array5, Array6)
